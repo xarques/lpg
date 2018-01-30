@@ -1,0 +1,46 @@
+/* Main navbar */
+.lpg-header {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 150px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.lpg-header-brand img {
+  height: 70px;
+}
+
+/* User Avatar */
+.lpg-header .avatar {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+/* Right section */
+.lpg-header-right {
+  display: block;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+/* Basic navbar item */
+.lpg-header-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.lpg-header-link {
+  color: #616668;
+  font-size: 14px;
+}
+.lpg-header-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}

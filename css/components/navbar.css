@@ -1,0 +1,36 @@
+/*.lpg-navbar {
+  height: 30px;
+/*  padding: 0px 30px; */
+/*
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lpg-navbar-item {
+  width: 95%;
+  /* height: 95%; */
+  /*
+  cursor: pointer;
+  padding: 15 20px;
+  background: blue;
+  color: white;
+  text-align: center;
+}
+
+.lpg-navbar-link {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.lpg-navbar-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}*/
+
+.lpg-scrollspy-relative {
+  position: relative;
+  margin: 1rem -15px 0;
+  border: solid #f7f7f9;
+}
