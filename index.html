@@ -21,24 +21,24 @@
         <p>Sans frais: 1.888.705.2323</p>
       </div>
     </div>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand navbar-light">
       <!-- <a class="navbar-brand" href="#">Navbar</a> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto nav nav-tabs nav-pills" id="myTab" role="tablist">
-          <li class="nav-item active">
+        <ul class="navbar-nav nav nav-pills nav-fill w-100" id="myTab" role="tablist">
+          <li class="nav-item active" >
             <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Accueil</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active" >
             <a class="nav-link" id="interventions-tab" data-toggle="tab" href="#interventions" role="tab" aria-controls="interventions" aria-selected="false">Nos interventions</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active" >
             <a class="nav-link" id="lpg-cf2g-tab" data-toggle="tab" href="#lpg-cf2g" role="tab" aria-controls="lpg-cf2g" aria-selected="false">LPG et CF2G au Québec - Canada</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="publications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" role="button" id="publications" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Nos publications
             </a>
             <div class="dropdown-menu" aria-labelledby="publications">
@@ -159,5 +159,4 @@
       $('#interventions-tab a[href="#interventions"]').tab('show') // Select tab by name
     </script> -->
   </body>
-
 </html>
