@@ -65,3 +65,9 @@ ul>li>a {
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .dropdown-item.active, .dropdown-item:active {
     background-color: #235fa0 !important;
 }
+
+.lpg-scrollspy {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
