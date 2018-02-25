@@ -82,7 +82,7 @@ nav>a {
 }
 
 .nav-pills.flex-column a {
-  padding: .1rem 1rem;
+  padding: .1rem 1rem !important;
 }
 
 .lpg-scrollspy {
